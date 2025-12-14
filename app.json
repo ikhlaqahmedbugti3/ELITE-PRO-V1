@@ -1,6 +1,6 @@
 {
   "name": "ELITE-PRO-V1",
-  "description": "A WhatsApp Bot Created by ElitePro",
+  "description": "A WhatsApp Bot Created by IKHLAQ AHMED",
   "logo": "https://i.ibb.co/jk0ynvbn/7a8c4b5b617fa11a1e9a61190f427546.jpg",
   "keywords": ["bot", "whatsapp", "baileys", "javascript", "elitepro"],
   "success_url": "/",
@@ -16,11 +16,11 @@
     },
     "OWNER_NUMBER": {
       "description": "Owner's phone number in international format (without +).",
-      "value": "2347047504860"
+      "value": "923334104708"
     },
     "OWNER_NAME": {
       "description": "Owner's display name.",
-      "value": "ElitePro"
+      "value": "IKHLAQ AHMED"
     },
     "BOT_NAME": {
       "description": "Bot display name.",
