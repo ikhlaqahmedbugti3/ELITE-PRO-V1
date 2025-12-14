@@ -1,7 +1,7 @@
 {
-  "name": "ELITE-PRO-V1",
+  "name": "ELITE-PRO-V1 BY IKHLAQ AHMED",
   "version": "1.0.9",
-  "description": "A WhatsApp bot with rich features.",
+  "description": "A WhatsApp bot with rich features by IKHLAQ AHMED.",
   "main": "index.js",
   "type": "commonjs",
   "directories": {
@@ -13,7 +13,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "cyrilix-xmd",
+  "author": "IKHLAQ-AHMED",
   "license": "MIT",
   "dependencies": {
     "baileys": "npm:gifted-baileys@2.0.4",
