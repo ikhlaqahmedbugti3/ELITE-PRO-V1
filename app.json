@@ -24,7 +24,7 @@
     },
     "BOT_NAME": {
       "description": "Bot display name.",
-      "value": "ELITE-PRO-V1"
+      "value": "ELITE-PRO by IKHLAQ"
     },
     "AUTO_RECORDING": {
       "description": "Enable auto-recording simulation (true or false).",
