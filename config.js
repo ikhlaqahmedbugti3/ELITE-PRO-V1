@@ -3,7 +3,20 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 // Contact details
-global.sessionid = process.env.SESSION_ID || '{"{"noiseKey":{"private":{"type":"Buffer","data":"KGnY92My5gBroruK02f2vzxHv1bd4HLhO+hR1Gpn80g="},"public":{"type":"Buffer","data":"LN1mDgQqx1wJa0t2aSYKom5G7Abmqi7hzH3CJYaPMQw="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"OCR9FaFcZivZEI3uhcllOopfR+5P9ARKkWscecOX5EM="},"public":{"type":"Buffer","data":"5J04lmEh9Q70Erjd5l1+G1wuxAN4Y9R/Q+3AZ0hYx1U="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"8EXgSUGccIopZjrKA7jGvrr2l2M9YcRvQTIs+52FWX4="},"public":{"type":"Buffer","data":"np2ssOSJw/Jk/gfNi3RRz9/gzWxrv1e1O274rufxqmU="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"+J0SMcZwOMAGx5qDp78A1r0OEKNm5xX8hnLQEPtVQk8="},"public":{"type":"Buffer","data":"6ISjYNvKAmO+MVo+3Sxww3VDPRE+/LcfKMRpvJ+VIls="}},"signature":{"type":"Buffer","data":"Aav6dMZoiHcWkJMd3LxjTz483871injPeZEybCiFndf1dhpNf0lmDsfPgGLd0AT+YOMY9FtlYLQCXPeB6bl7Cw=="},"keyId":1},"registrationId":194,"advSecretKey":"ERZBKo0gMlvbxoosGajZbkS7KzTWLiwNI7/XAjubHMQ=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"registered":false,"account":{"details":"CJ79yowCEICyhMoGGAIgACgA","accountSignatureKey":"xqmmmHa53lrPy8rBlTStTl3tHD+p12HqeRM/O+ji3SU=","accountSignature":"NAu5Tf0oSFUxWQpmbp+/UXDqtBXxxQ1A9EIcQFJu+rPhRiNPBFA/irbIouipOxv68MBwgwGYu88yQAKwKD4sDw==","deviceSignature":"yFjxrmHguOSI+yx+j41sSE4RPZSM1CjaFgH0bGDb7SBL9e5PGvWgsW8vmAOPESqK2UQKlFDjDOLzyWQoGnD6Cg=="},"me":{"id":"923334104708:31@s.whatsapp.net","lid":"228277562130470:31@lid"},"signalIdentities":[{"identifier":{"name":"923334104708:31@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"Bcappph2ud5az8vKwZU0rU5d7Rw/qddh6nkTPzvo4t0l"}}],"platform":"android","routingInfo":{"type":"Buffer","data":"CAUIAggN"},"lastAccountSyncTimestamp":1765873937,"lastPropHash":"1K4hH4"}"}
+global.sessionid = process.env.SESSION_ID || '{"module.exports = {
+  // ... other config options ...
+  session: {
+    clientId: "923334104708",
+    clientSecret: "your_client_secret",
+    sessionId: JSON.stringify({
+      noiseKey: {
+        private: Buffer.from("KGnY92My5gBroruK02f2vzxHv1bd4HLhO+hR1Gpn80g=", 'base64'),
+        public: Buffer.from("LN1mDgQqx1wJa0t2aSYKom5G7Abmqi7hzH3CJYaPMQw=", 'base64')
+      },
+      // ... other session data ...
+    }),
+  },
+};"};
 global.ytname = process.env.YT_NAME || "YT: @none";
 global.socialm = process.env.SOCIAL_M || "GitHub: ikhlaqahmedbugti3";
 global.location = process.env.LOCATION || "Nigeria, Port Harcourt";
