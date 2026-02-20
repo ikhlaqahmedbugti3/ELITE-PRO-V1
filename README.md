@@ -13,7 +13,7 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 
 <p align="center">
   <a href="https://chat.whatsapp.com/BscdfUpSmJY0OAOWfyPjNs">
-    <img alt=Support weight="10" src="https://vi-database.vercel.app/img/repo.png"> 
+    <img alt=Support weight="10" src="https://eliteprotech-store.vercel.app/img/repo.png"> 
     </p>
 <p align="center"> 
     </p>
@@ -38,7 +38,7 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 ## GET SESSION ID BELOW
 > **FROM PAIRING WEB**
 
-<a href='https://session-id-website.vercel.app/' target="_blank">
+<a href='https://eliteprotech.zone.id/session' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
